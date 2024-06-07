@@ -67,10 +67,10 @@ def loop():
         lcd.message( get_time_now() )
         time.sleep(1)
         if(distance > 0.1< distance <= 35):
-            email_sender = "kayne.haber@gmail.com"
-            email_password = "ohws niku qutn oaut"
-            email_reciever = "kayne.haber@gmail.com"
-
+            email_sender = "SENDING_EMAIL"
+            email_password = "EMAILPASSWORD"
+            email_reciever = "RECIEVING_EMAIL"
+            #I used two of my emails
             subject = "Security System Alert!"
             body = """ Movement detected """
            
